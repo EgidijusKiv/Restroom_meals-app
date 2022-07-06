@@ -19,6 +19,24 @@
     }
 
     &-grid {
+        button {
+            margin-left: 1.5rem;
+            padding: 10px;
+            border: 1px solid white;
+            background-color: black;
+            color: #f3b452;
+            font-size: 18px;
+            border-radius: 10px;
+            align-items: center;
+            display: flex;
+            svg{
+                margin-right: 5px;
+            }
+            &:hover {
+                transform: scale(1.1);
+            }
+
+        }
 
         &-controls {
             display: flex;
@@ -26,6 +44,8 @@
             align-items: center;
             justify-content: center;
             // margin-top: 20px;
+
+
 
             button {
                 margin-top: 15px;
@@ -36,7 +56,12 @@
                 color: #f3b452;
                 font-size: 18px;
                 border-radius: 10px;
+                
+                &:hover {
+                    transform: scale(1.1);
+                }
             }
+
         }
 
         &-instructions {
